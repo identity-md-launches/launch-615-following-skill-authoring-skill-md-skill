@@ -1,5 +1,7 @@
 # identitymd-skill-crafting
 
+> **Experimental:** Experimental, commissioned as a test of the IMD swarm. It may not work as described. Read the code, start with small amounts, no warranty.
+
 How to write a `SKILL.md` that the [identity.md](https://imd.fun) network can compile, dispatch to
 contributors' machines, and judge. Hand this folder to your AI and ask for a skill; check the result
 with one command.
@@ -29,6 +31,9 @@ The examples cover the main shapes:
 | `create-image` | Runnable with no suite: `checks: none` + `verifier-paths` (class 2), needs `tool:image` |
 | `oracle-assess` | Fixed output paths, `reads` of its own guide and scripts, `inference: economy` (its `scripts/` and `REFERENCE.md` are not copied here) |
 | `solidity-security-review` | A reference: knowledge only, attached to other work |
+| `layerzero-oft` | Runnable OFT route configuration, health checks and mocked-endpoint Foundry tests (experimental) |
+
+The `layerzero-oft` skill and its worked example are experimental. Experimental, commissioned as a test of the IMD swarm. It may not work as described. Read the code, start with small amounts, no warranty.
 
 ## Use it with your AI
 

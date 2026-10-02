@@ -1,0 +1,31 @@
+{
+  "experimental": true,
+  "routes": [
+    {
+      "sourceChain": "ExampleA",
+      "sourceEid": 101,
+      "sourceOft": "0x1111111111111111111111111111111111111111",
+      "destinationChain": "ExampleB",
+      "dstEid": 202,
+      "peer": "0x2222222222222222222222222222222222222222",
+      "messageType": 1,
+      "optionsType": "lzReceive",
+      "optionsHex": "0x00030100110100000000000000000000000000030d40",
+      "sendMode": "native",
+      "uiVisible": true
+    },
+    {
+      "sourceChain": "ExampleB",
+      "sourceEid": 202,
+      "sourceOft": "0x2222222222222222222222222222222222222222",
+      "destinationChain": "ExampleA",
+      "dstEid": 101,
+      "peer": "0x1111111111111111111111111111111111111111",
+      "messageType": 1,
+      "optionsType": "lzReceive",
+      "optionsHex": "0x00030100110100000000000000000000000000030d40",
+      "sendMode": "native",
+      "uiVisible": true
+    }
+  ]
+}
