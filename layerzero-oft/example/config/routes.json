@@ -3,10 +3,10 @@
   "routes": [
     {
       "sourceChain": "ExampleA",
-      "sourceEid": 101,
+      "sourceEid": 40101,
       "sourceOft": "0x1111111111111111111111111111111111111111",
       "destinationChain": "ExampleB",
-      "dstEid": 202,
+      "dstEid": 40202,
       "peer": "0x2222222222222222222222222222222222222222",
       "messageType": 1,
       "optionsType": "lzReceive",
@@ -16,10 +16,10 @@
     },
     {
       "sourceChain": "ExampleB",
-      "sourceEid": 202,
+      "sourceEid": 40202,
       "sourceOft": "0x2222222222222222222222222222222222222222",
       "destinationChain": "ExampleA",
-      "dstEid": 101,
+      "dstEid": 40101,
       "peer": "0x1111111111111111111111111111111111111111",
       "messageType": 1,
       "optionsType": "lzReceive",
